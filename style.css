@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.headline {
+  background: #FE9143;
+  color: #2F4858;
+  overflow: auto;
+}
+
+.bio {
+  background-color:#F26D70;
+  color: #2F4858;
+}
+
+.links {
+  background-color:#66c199;
+  color: #2F4858;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#kids-pic {
+  width: 60%;
+  height: 200px;
+  object-fit: cover;
+  float: right;
+}
